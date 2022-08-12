@@ -1,0 +1,28 @@
+{
+  "name": "dom-shortener-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LightLordYT/dom-shortener-cli"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "dom-shortener-cli": "../domshortenercli"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "dom-shortener": "^0.2.2",
+    "inquirer": "^9.0.2",
+    "nanospinner": "^1.1.0",
+    "shelljs": "^0.8.5"
+  },
+  "description": "CLI for Dom-Shortener"
+}
